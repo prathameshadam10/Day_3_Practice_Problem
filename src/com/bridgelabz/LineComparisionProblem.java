@@ -40,10 +40,7 @@ public static void main(String[] args) {
             System.out.println("Lines are not equal");
         }
 
-          Double length1 = Math.sqrt((Math.pow((x2 - x1), 2)) + (Math.pow((y2 - y1), 2)));
-        System.out.println("Length of first line: " + length1);
         
-        System.out.println("Length of Line :" + length1);
 
 
        
