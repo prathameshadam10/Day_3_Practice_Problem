@@ -1,4 +1,10 @@
-    public static void main(String[] args) {
+package com.bridgelabz;
+
+import java.util.Scanner;
+
+public class LineComparisionProblem {
+
+public static void main(String[] args) {
         System.out.println("Welcome to Line comparision Computation Program");
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter value of x1 :");
