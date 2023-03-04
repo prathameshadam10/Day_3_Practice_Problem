@@ -11,11 +11,10 @@
         int y2 = sc.nextInt();
 
 
-        double oper1 = Math.pow((x2 - x1),2);
-        double oper2 = Math.pow((y2 - y1),2);
-        double oper3 = oper1+oper2;
-        double length = Math.sqrt(oper3);
-        System.out.println("Length of Line :" + length);
+          Double length1 = Math.sqrt((Math.pow((x2 - x1), 2)) + (Math.pow((y2 - y1), 2)));
+        System.out.println("Length of first line: " + length1);
+        
+        System.out.println("Length of Line :" + length1);
 
     }
 }
